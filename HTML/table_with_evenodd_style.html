@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>styling table with colors</title>
+    <style>
+      table,th,td,tr{
+        border:2px solid red;
+        border-collapse:collapse;
+        padding:10px;
+      }
+      table#alter tr:nth-child(even){
+        background-color:blue;
+        color:yellow;
+      }
+      table#alter tr:nth-child(odd){
+        background-color:orange;
+      }
+      table#alter th{
+        color:white;
+        background-color:gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>table with background colors</h1>
+    <table id='alter'>
+      <caption>students information</caption>
+      <tr>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>marks</th>
+      </tr>
+      <tr>
+        <td>sonoo</td>
+        <td>jaiswal</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>james</td>
+        <td>willian</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>wati</td>
+        <td>sirno</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>chean</td>
+        <td>sing</td>
+        <td>68</td>
+      </tr>
+    </table>
+
+  </body>
+</html>
