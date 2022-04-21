@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tags starting with letter T</title>
+  </head>
+  <body>
+    <h1>1. table</h1>
+    <p>used to reprsent data in table form</p>
+    <h1>2. tbody</h1>
+    <p>used to represent body content of an HTML table and used along with thead and tfoot</p>
+    <h1>3. td</h1>
+    <p>used to define cells of an HTML table which contains table data</p>
+    <h1>4. thead</h1>
+    <p>used to define the header of an HTML table, used along with tbody and tfoot tags</p>
+    <h1>5. tr </h1>
+    <p>defines the row cells in an HTML table</p>
+    <h2>example for all above tags</h2>
+    <table border="1">
+  <caption>Population of India</caption>
+    <thead>
+             <tr>
+        <th>Year</th>
+        <th>Population</th>
+             </tr>
+    </thead>
+       <tbody>
+        <tr>
+             <td>2015</td>
+             <td>1,309,053,980</td>
+          </tr>
+        <tr>
+            <td>2016</td>
+              <td>1,324,171,354</td>
+          </tr>
+           <tr>
+               <td>2017</td>
+                <td>1,339,180,127</td>
+            </tr>
+             <tr>
+               <td>2018</td>
+               <td>1,354,051,854</td>
+             </tr>
+     </tbody>
+  </table>
+
+
+
+  <h1>tfoot</h1>
+  <p>It defines the footer content of an html table</p>
+  <table border="1" >
+              <thead>
+        <tr>
+              <th>Items</th>
+              <th>Quantity</th>
+              <th>Expenditure</th>
+        </tr>
+    </thead>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>90</th>
+          <th>4175</th>
+        </tr>
+               </tfoot>
+                  <tbody>
+         <tr>
+             <td>Books</td>
+              <td>5</td>
+               <td>1500</td>
+         </tr>
+          <tr>
+                <td>Drawing-Paper</td>
+                  <td>50</td>
+                <td>800</td>
+         </tr>
+         <tr>
+            <td>Marker</td>
+            <td>35</td>
+             <td>1875</td>
+         </tr>
+     </tbody>
+ </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h1>6. template </h1>
+  <p>used to contain the client side content which will not display at time of page load and may render later using JavaScript</p>
+
+  <h2>example</h2>
+  <h2>Example of template tag</h2>
+  <button onclick="clickMe()">Click Me</button><br>
+
+ <template id="mytemplate">
+   <img src="bird.jpg" alt="bird's image" height="100" width="100">
+   <script>
+   alert("Thank you for choosing template. Click OK for image.")
+   </script>
+  </template>
+
+  <script>
+   function clickMe() {
+    var x= document.getElementsByTagName("template")[0];
+    var clon = x.content.cloneNode(true);
+    document.body.appendChild(clon);}
+</script>
+
+<h1>7. textarea</h1>
+<p>used to define a multi-line text input control</p>
+<h2>example</h2>
+<textarea name="name" rows="8" cols="80">hi this text area </textarea>
+
+<h2>textarea form attribute</h2>
+
+
+<form action="updates.jsp" id="usrform">
+ Name: <input type="text" name="usrname">
+ <input type="submit">
+</form>
+
+<br>
+<textarea rows="9" cols="70" name="comment" form="usrform">
+Enter text here...</textarea>
+<p>The text area above is outside the form element, but should still be a part of the form.</p>
+<p><b>Note:</b> The form attribute is not supported in Internet Explorer.</p>
+Test it Now
+
+
+<h1>8. title</h1>
+<p>defines name for your web page it is necessary for search engine optimization</p>
+<p>inthis web page you can see the title "tags starting with letter T"</p>
+
+<h1>9. track</h1>
+<p>it is used to define text tracks for audi and video elements</p>
+<h2>example</h2>
+<video controls="controls">
+     <source src="flower.mp4" type="video/mp4">
+    <track src="flower.vtt" kind="subtitles" srclang="en" label="English">
+
+ </video>
+
+<h1>9.time </h1>
+<p>used to define date and time</p>
+<h2>Example</h2>
+<p>We open our shop at <time>09:00</time> am.</p>
+<p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>
+<p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p>
+
+
+
+
+
+
+
+
+  </body>
+</html>
