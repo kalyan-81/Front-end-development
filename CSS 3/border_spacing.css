@@ -1,0 +1,23 @@
+table{
+border: 2px solid blue;
+text-align: center;
+font-size: 20px;
+background-color: lightgreen;
+}
+th{
+border: 5px solid red;
+background-color: yellow;
+}
+td{
+border: 5px solid violet;
+background-color: cyan;
+}
+#space{
+border-collapse: separate;
+border-spacing: 20px;
+}
+/* The first value, i.e., 20pt sets the horizontal spacing, and the value 1em set the vertical spacing. */
+#space{
+border-collapse: separate;
+border-spacing: 20pt 1em;
+}

@@ -1,0 +1,36 @@
+
+
+/* it will set all corners to the same value. */
+#one {
+border-radius: 90px;
+background: lightgreen;
+}
+/* the first value will be used for the top-left and bottom-right corners,
+and the second value will be used for the top-right and bottom-left corners. */
+#two {
+border-radius: 25% 10%;
+background: orange;
+}
+/* the first value will be used for the top-left corner, the second value will be applied on top-right,
+and bottom-left corners and the third value will be applied to the bottom-right corner. */
+#three {
+border-radius: 35px 10em 10%;
+background: cyan;
+}
+/* the first value will be the radius of top-left, the second value will be used for the top-right,
+the third value will be applied on bottom-right, and the fourth value is used for bottom-left. */
+#four {
+border-radius: 50px 50% 50cm 50em;
+background: lightblue;
+}
+div {
+padding: 50px;
+margin: 20px;
+border: 6px ridge red;
+width: 300px;
+float: left;
+height: 150px;
+}
+p{
+font-size: 25px;
+}
