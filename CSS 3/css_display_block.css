@@ -1,0 +1,6 @@
+/* The CSS display block element takes as much as horizontal space as they can.
+ Means the block element takes the full available width.
+They make a line break before and after them. */
+p{
+  display:block;
+}

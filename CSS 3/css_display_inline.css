@@ -1,0 +1,5 @@
+/* The inline element takes the required width only.
+ It doesn't force the line break so the flow of text doesn't break in inline example. */
+p{
+  display:inline;
+}

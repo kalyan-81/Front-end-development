@@ -1,0 +1,5 @@
+/* The CSS display inline-block element is very similar to inline element
+but the difference is that you are able to set the width and height. */
+p{
+  display:inline-block;
+}
