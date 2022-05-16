@@ -1,0 +1,60 @@
+body{
+       text-align: center;
+    }
+        button {
+           color:lightgoldenrodyellow;
+            font-size: 30px;
+        }
+        .b1 {
+            background-color: red;
+        }
+        .b2 {
+            background-color: blue;
+        }
+        .b3 {
+            background-color: violet;
+        }
+        .b4 {
+           background-color: red;
+           border:none;
+       }
+       .b5 {
+           background-color: blue;
+           border:5px brown solid;
+       }
+       .b6 {
+           background-color: yellow;
+           color:black;
+           border:5px red groove;
+       }
+       .b7{
+          background-color:orange;
+          border: 5px red dashed;
+       }
+       .b8{
+          background-color: gray;
+          border: 5px black dotted;
+       }
+       .b9{
+          background-color: lightblue;
+          border:5px blue double;
+       }
+
+       .b10{
+           background-color: lightblue;
+           border:5px red double;
+           border-radius: 25px;
+           color:black;
+           box-shadow : 0 8px 16px 0 black,
+                    0 6px 20px  0 rgba(0, 0, 0, 0.19);
+        }
+        .b11{
+         background-color: lightblue;
+           border:5px red dotted;
+           color:black;
+           border-radius: 25px;
+        }
+        .b11:hover{
+           box-shadow : 0 8px 16px 0 black,
+                    0 6px 20px  0 rgba(0, 0, 0, 0.19);
+        }
