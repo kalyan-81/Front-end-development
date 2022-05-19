@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Object constructor</title>
+  </head>
+  <body>
+    <h1>creating object using object constructor</h1>
+    <p>this keyword refers to current object</p>
+    <script type="text/javascript">
+      function emp(id,name,salary){
+         this.id=id;
+         this.name=name;
+         this.salary=salary;
+        }
+      e=new emp(103,"kalyan",30000);
+
+      document.write(e.id+" "+e.name+" "+e.salary);
+    </script>
+
+  </body>
+</html>
